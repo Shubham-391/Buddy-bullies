@@ -1,0 +1,469 @@
+@import url(/assets/css/root.css);
+@import url(/assets/css/media.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* font-size */
+
+.vvs {
+    font-size: var(--vvs);
+}
+
+.vs {
+    font-size: var(--vs);
+}
+
+.s {
+    font-size: var(--s);
+}
+
+.m1 {
+    font-size: var(--m1);
+}
+
+.m2 {
+    font-size: var(--m2);
+}
+
+.m3 {
+    font-size: var(--m3);
+}
+
+.l {
+    font-size: var(--l);
+}
+
+.xl {
+    font-size: var(--xl);
+}
+
+.xxl {
+    font-size: var(--xxl);
+}
+
+/* color */
+.white {
+    color: var(--white);
+}
+
+.d-blue1 {
+    color: var(--d-blue1);
+}
+
+.d-blue2 {
+    color: var(--d-blue2);
+}
+
+.d-blue3 {
+    color: var(--d-blue3);
+}
+
+/* font-family */
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* line-height */
+.l-h-150 {
+    line-height: 150%;
+}
+
+.l-h-normal {
+    line-height: normal;
+}
+
+.l-h-124 {
+    line-height: 124%;
+}
+
+.l-h-41 {
+    line-height: 41px;
+}
+
+.l-h-136 {
+    line-height: 136%;
+}
+
+.l-h-1005 {
+    line-height: 100.5%;
+}
+
+.l-h-182 {
+    line-height: 182.5%;
+}
+
+/* opacity */
+.opacity-70 {
+    opacity: 0.7;
+}
+
+.opacity-60 {
+    opacity: 0.6;
+}
+
+/* font-style */
+.f-style-normal {
+    font-style: normal;
+}
+
+/* background color */
+.bg-white {
+    background: var(--white);
+}
+
+.bg-d-blue3 {
+    background-color: var(--d-blue3);
+}
+
+.bg-d-blue2 {
+    background: var(--d-blue2);
+}
+
+
+
+/* header */
+.min-w-100 {
+    min-width: 100vh;
+}
+
+.bg-img {
+    background-image: url(/assets/images/header-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1080px;
+}
+
+.gap-80 {
+    gap: 80px;
+}
+
+.padt-26 {
+    padding-top: 26px;
+}
+
+.text1 {
+    opacity: 0.7;
+}
+
+.marginy1 {
+    margin: 27px 0 46px 0;
+}
+
+.button1 {
+    min-width: 225px;
+    height: 69px;
+    border-radius: 45.5px;
+    border: none;
+}
+
+a {
+    color: unset !important;
+    text-decoration: none !important;
+}
+
+/* main */
+main {
+    min-height: 4596px;
+    min-width: 100vh;
+}
+
+
+/* section1 */
+
+.minttext2 {
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.button2 {
+    padding: 10px 20px;
+    border-radius: 45.5px;
+    border: none;
+    margin: 63px 0 52.1px 0;
+}
+
+.s1img {
+    max-width: 574px;
+    max-height: 574px;
+}
+
+.margint-48 {
+    margin-top: 48px;
+}
+
+.margint-21 {
+    margin-top: 21px;
+}
+
+.margint2-21 {
+    margin-top: 21%;
+}
+
+.socialm-width {
+    min-width: 147px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* section2 */
+.box1 {
+    max-width: 426px;
+    border-radius: 20px;
+    padding: 39px 39px 34px 40px;
+}
+
+.h1-511 {
+    height: 511px;
+}
+
+.h2-527 {
+    height: 527px;
+}
+
+.s2heading {
+    margin: 44px 0 25px 0;
+}
+
+.s2con {
+    max-width: 1380px;
+    padding: 0 12px;
+    margin: 128px auto 0 auto;
+}
+
+.row-g-41 {
+    row-gap: 41px;
+}
+
+/* section3*/
+.margint-131 {
+    margin-top: 131px;
+}
+
+.margin-b-74 {
+    margin-bottom: 74px;
+}
+
+.margint-24 {
+    margin: 24px 0 0 0;
+}
+
+.timeline1 {
+    width: 100%;
+    min-height: 288px;
+}
+
+.timeline1::after {
+    content: '';
+    position: absolute;
+    border: dashed 1px var(--white);
+    border-style: dashed;
+    height: 288px;
+    border-image-source: url(/assets/images/line.png);
+    border-image-width: 1;
+    border-image-slice: 1;
+    border-image-repeat: repeat;
+    top: 40px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.timeline2 {
+    width: 100%;
+    min-height: 354px;
+    top: 40px;
+}
+
+.timeline2::after {
+    content: '';
+    position: absolute;
+    border: dashed 1px var(--white);
+    border-style: dashed;
+    height: 354px;
+    border-image-source: url(/assets/images/line.png);
+    border-image-width: 1;
+    border-image-slice: 1;
+    border-image-repeat: repeat;
+    top: 44px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.timecontainer {
+    position: relative;
+}
+
+.timecontainer::after {
+    content: '';
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    background-color: var(--sky-blue);
+    box-shadow: 0 0 0 11px var(--d-blue4);
+    border: 3.232px solid var(--white);
+    border-radius: 50%;
+    z-index: 1;
+    top: 0;
+    right: -22px;
+}
+
+.top-85 {
+    top: 85px;
+}
+
+.left {
+    left: 0;
+}
+
+.content {
+    position: relative;
+}
+
+.margint-226 {
+    margin-top: 226px;
+}
+
+/* section4 */
+.s4con {
+    max-width: 854px;
+    padding: 0 12px;
+}
+
+.margint-110 {
+    margin-top: 110px;
+}
+
+.tab {
+    width: 100%;
+    background-color: var(--bg-yellow);
+    overflow: hidden;
+}
+
+.input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.input:checked+.tab-label::after {
+    transform: rotate(270deg);
+}
+
+.input:checked~.tab-content {
+    max-height: 100vh;
+}
+
+.tab-label {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 20px 28px 20px 32px;
+    height: 64px;
+    border-radius: 150px;
+}
+
+.tab-label::after {
+    content: "\276F";
+    transform: rotate(90deg);
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 1s;
+}
+
+.input:checked+.tab-label::after {
+    transform: rotate(270deg);
+}
+
+.tab-content {
+    max-height: 0;
+    padding: 20px 0 0 30px;
+    transition: all linear 500ms;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* section5 */
+.s5con {
+    max-width: 1036px;
+    padding: 0 12px;
+}
+
+.margint-121 {
+    margin-top: 121px;
+}
+
+.marginb-26 {
+    margin-bottom: 26px;
+}
+
+.paddingb-42 {
+    padding-bottom: 42px;
+}
+
+.margint-32 {
+    margin-top: 32px;
+}
+
+/* footer */
+footer {
+    background-image: url(/assets/images/footerbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 625px;
+    min-width: 100vh;
+}
+
+.fcon {
+    max-width: 1357px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+.paddingt-179 {
+    padding-top: 179px;
+}
+
+.marginb-20 {
+    margin-bottom: 20px;
+}
+
+.marginy-6 {
+    margin: 6px 0;
+}
+
+.marginb-10 {
+    margin-bottom: 10px;
+}
+
+.width-80 {
+    max-width: 80px;
+}
+
+.margint-106 {
+    margin-top: 106px;
+}
+
+.marginb-21 {
+    margin-bottom: 21px;
+}
+
+.marginb-39 {
+    margin-bottom: 39px;
+}

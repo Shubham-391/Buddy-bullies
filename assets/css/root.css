@@ -1,0 +1,20 @@
+:root {
+    /* font-size  */
+    --vvs: 14px;
+    --vs: 16px;
+    --s: 18px;
+    --m1: 20px;
+    --m2: 21.744px;
+    --m3: 25px;
+    --l: 30px;
+    --xl: 50px;
+    --xxl: 70px;
+
+    /* color */
+    --white: #FFF;
+    --d-blue1: #001D49;
+    --d-blue2: #031227;
+    --d-blue3: #000A1A;
+    --d-blue4: #001931;
+    --sky-blue: #009DFF;
+}
