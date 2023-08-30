@@ -27,7 +27,7 @@
 
     .ellipse1 {
         width: 100%;
-        top: -6%;
+        top: -1%;
         left: -3%;
     }
 
@@ -55,7 +55,35 @@
     }
 }
 
+@media(max-width: 310px) {
+    body {
+        min-width: 100vh;
+    }
+}
+
+@media (min-width: 500px) {
+
+    /* main */
+    .ellipse1 {
+        width: 100%;
+        top: -2%;
+        left: -3%;
+    }
+}
+
 @media (max-width: 768px) {
+    :root {
+        --vvs: 10px;
+        --vs: 12px;
+        --s: 13px;
+        --m1: 14px;
+        --m2: 18px;
+        --m3: 20px;
+        --l: 25px;
+        --xl: 32px;
+        --xxl: 42px;
+    }
+
     .timeline1::after {
         left: 31px;
     }
@@ -78,7 +106,7 @@
     }
 
     .content {
-        padding: 0 90px;
+        padding: 0 0 0 90px;
     }
 
     .text-align {

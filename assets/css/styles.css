@@ -162,10 +162,11 @@
 }
 
 .button1 {
-    min-width: 225px;
+    padding: 16px 41px 15px 40px;
     height: 69px;
     border-radius: 45.5px;
     border: none;
+    min-width: 0;
 }
 
 a {
@@ -173,10 +174,22 @@ a {
     text-decoration: none !important;
 }
 
+.max-w-515 {
+    max-width: 515px;
+}
+
+.max-w-547 {
+    max-width: 547px;
+}
+
 /* main */
 main {
     min-height: 4596px;
-    min-width: 100vh;
+    /* min-width: 100vh; */
+}
+
+.w-100 {
+    width: 100%;
 }
 
 
@@ -192,10 +205,12 @@ main {
     border-radius: 45.5px;
     border: none;
     margin: 63px 0 52.1px 0;
+    min-width: 0;
 }
 
 .s1img {
     max-width: 574px;
+    min-width: 0;
     max-height: 574px;
 }
 
@@ -352,17 +367,21 @@ main {
     overflow: hidden;
 }
 
+.active {
+    height: unset;
+}
+
 .input {
     position: absolute;
     opacity: 0;
     z-index: -1;
 }
 
-.input:checked+.tab-label::after {
+.tab.active .tab-label::after {
     transform: rotate(270deg);
 }
 
-.input:checked~.tab-content {
+.tab.active .tab-content {
     max-height: 100vh;
 }
 
@@ -381,11 +400,7 @@ main {
     width: 1em;
     height: 1em;
     text-align: center;
-    transition: all 1s;
-}
-
-.input:checked+.tab-label::after {
-    transform: rotate(270deg);
+    transition: all linear 500ms;
 }
 
 .tab-content {
@@ -427,7 +442,6 @@ footer {
     background-position: center;
     background-size: cover;
     min-height: 625px;
-    min-width: 100vh;
 }
 
 .fcon {
